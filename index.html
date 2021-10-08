@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test d'intégration CosaVostra</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1 id="logo">Hey</h1>
+        <div class="socialMedia">
+            <a href="#"><img src="./sources/icons/instagram.svg" alt="instagram"></a>
+            <a href="#"><img src="./sources/icons/twitter.svg" alt="twitter"></a>
+        </div>
+        <button id="menuButton">
+            <i class="fas fa-bars"></i>
+        </button>
+    </header>
+    <nav id="sideNavMenu" class="menuStart">
+        <div id="menuLinks">
+            <a class="linkMenu" href="#">Lorem ipsum</a>
+            <a class="linkMenu" href="#">Dolor sit</a>
+            <a class="linkMenu" href="#">Consectetur</a>
+            <a class="linkMenu" href="#">Adipiscing</a>
+            <a class="linkMenu" href="#">Elit</a>
+            <a class="linkMenu" href="#">Etiam rutrum</a>
+        </div>
+        <div id="contactAndSocial">
+            <div class="socialMedia">
+                <a href="#"><img src="./sources/icons/instagram.svg" alt="instagram"></a>
+                <a href="#"><img src="./sources/icons/twitter.svg" alt="twitter"></a>
+            </div>
+            <p id="contact">Contact</p>
+        </div>
+    </nav>
+    <main>
+        <section id="intro">
+            <div id="articlesIntro" class="notFixed">
+                <div id="featuredArticle">
+                    <img src="https://place-hold.it/560x560" alt="Image de l'article">
+                    <p class="textArticle">Lorem ipsum dolor sit amet consectetur adipiscing elit etiam</p>
+                    <div class="articleLinkAndDate">
+                        <a class="articleLink" href="#">Rutrum</a>
+                        <p class="articleDate">Aujourd'hui</p>
+                    </div>
+                </div>
+                <div id="videoArticle">
+                    <button>
+                        <img src="./sources/icons/play.svg" alt=">">
+                        <p>Play</p>
+                    </button>
+                    <img src="https://place-hold.it/560x560" alt="Image de l'article">
+                    <p class="textArticle">Lorem ipsum dolor sit amet consectetur adipiscing elit etiam</p>
+                    <a class="articleLink" href="#">Rutrum</a>
+                </div>
+            </div>
+        </section>
+        <section id="articleList">
+            <div class="articleItem">
+                <div class="text">
+                    <p class="articleText">Maecenas faucibus mollis interdum. Curabitur blandit</p>
+                    <div class="articleLinkAndDate">
+                        <a class="articleLink" href="#">Rutrum</a>
+                        <p class="articleDate">Aujourd'hui</p>
+                    </div>
+                </div>
+                <img src="https://place-hold.it/104x104" alt="Image de l'article">
+            </div>
+            <div class="articleItem">
+                <div class="text">
+                    <p class="articleText">Donec id elit non mi porta gravida at eget metus</p>
+                    <div class="articleLinkAndDate">
+                        <a class="articleLink" href="#">Rutrum</a>
+                        <p class="articleDate">Hier <img src="./sources/icons/ellipse.svg" alt="°"></p>
+                    </div>
+                </div>
+                <img src="https://place-hold.it/104x104" alt="Image de l'article">
+            </div>
+            <div class="articleItem">
+                <div class="text">
+                    <p class="articleText">Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis
+                        vestibulum
+                        rutrum</p>
+                    <div class="articleLinkAndDate">
+                        <a class="articleLink" href="#">Rutrum</a>
+                        <p class="articleDate">Aujourd'hui</p>
+                    </div>
+                </div>
+                <img src="https://place-hold.it/104x104" alt="Image de l'article">
+            </div>
+            <div class="articleItem">
+                <div class="text">
+                    <p class="articleText">Maecenas faucibus mollis interdum. Curabitur blandit</p>
+                    <div class="articleLinkAndDate">
+                        <a class="articleLink" href="#">Rutrum</a>
+                        <p class="articleDate">Il y a 5j. <img src="./sources/icons/ellipse.svg" alt="°"></p>
+                    </div>
+                </div>
+                <img src="https://place-hold.it/104x104" alt="Image de l'article">
+            </div>
+
+            <!-- Big article item -->
+            <div id="featuredArticleItem">
+                <div class="text">
+                    <p class="articleText">Lorem ipsum dolor sit amet consectetur adipiscing elit etiam</p>
+                    <div class="articleLinkAndDate">
+                        <a class="articleLink" href="#">Rutrum</a>
+                        <p class="articleDate">Il y a 3j. <img src="./sources/icons/ellipse.svg" alt="°"></p>
+                    </div>
+                </div>
+                <img src="https://place-hold.it/420x420" alt="Image de l'article">
+            </div>
+            <!-- ------------- -->
+
+            <div class="articleItem">
+                <div class="text">
+                    <p class="articleText">Donec id elit non mi porta gravida at eget metus</p>
+                    <div class="articleLinkAndDate">
+                        <a class="articleLink" href="#">Rutrum</a>
+                        <p class="articleDate">Hier</p>
+                    </div>
+                </div>
+                <img src="https://place-hold.it/104x104" alt="Image de l'article">
+            </div>
+            <div class="articleItem">
+                <div class="text">
+                    <p class="articleText">Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis
+                        vestibulum
+                        rutrum</p>
+                    <div class="articleLinkAndDate">
+                        <a class="articleLink" href="#">Rutrum</a>
+                        <p class="articleDate">Hier</p>
+                    </div>
+                </div>
+                <img src="https://place-hold.it/104x104" alt="Image de l'article">
+            </div>
+            <div class="articleItem">
+                <div class="text">
+                    <p class="articleText">Maecenas faucibus mollis interdum. Curabitur blandit</p>
+                    <div class="articleLinkAndDate">
+                        <a class="articleLink" href="#">Rutrum</a>
+                        <p class="articleDate">Hier</p>
+                    </div>
+                </div>
+                <img src="https://place-hold.it/104x104" alt="Image de l'article">
+            </div>
+            <div class="articleItem">
+                <div class="text">
+                    <p class="articleText">Donec id elit non mi porta gravida at eget metus</p>
+                    <div class="articleLinkAndDate">
+                        <a class="articleLink" href="#">Rutrum</a>
+                        <p class="articleDate">Hier</p>
+                    </div>
+                </div>
+                <img src="https://place-hold.it/104x104" alt="Image de l'article">
+            </div>
+
+            <!-- Newslater -->
+            <aside id="newslater">
+                <div id="newslaterContentForm">
+                    <p>NewsL<span id="textFill">hey</span>tter</p>
+                    <img class="pointer" id="pointerTop" src="./sources/icons/pointer.png" alt="">
+                    <img class="pointer" id="pointerLeft" src="./sources/icons/pointer.png" alt="">
+                    <img class="pointer" id="pointerBottom" src="./sources/icons/pointer.png" alt="">
+                    <form action="#">
+                        <input type="text" placeholder="Ton email">
+                        <input type="submit" value="Je m'abone">
+                    </form>
+                </div>
+
+                <div class="socialMedia">
+                    <a href="#"><img src="./sources/icons/instagram.svg" alt="instagram"></a>
+                    <a href="#"><img src="./sources/icons/twitter.svg" alt="twitter"></a>
+                </div>
+
+            </aside>
+            <!-- ---------- -->
+
+            <div class="articleItem marginForNewslater">
+                <div class="text">
+                    <p class="articleText">Donec id elit non mi porta gravida at eget metus</p>
+                    <div class="articleLinkAndDate">
+                        <a class="articleLink" href="#">Rutrum</a>
+                        <p class="articleDate">Hier</p>
+                    </div>
+                </div>
+                <img src="https://place-hold.it/104x104" alt="Image de l'article">
+            </div>
+            <div class="articleItem">
+                <div class="text">
+                    <p class="articleText">Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis
+                        vestibulum
+                        rutrum</p>
+                    <div class="articleLinkAndDate">
+                        <a class="articleLink" href="#">Rutrum</a>
+                        <p class="articleDate">Hier</p>
+                    </div>
+                </div>
+                <img src="https://place-hold.it/104x104" alt="Image de l'article">
+            </div>
+            <div class="articleItem">
+                <div class="text">
+                    <p class="articleText">Maecenas faucibus mollis interdum. Curabitur blandit</p>
+                    <div class="articleLinkAndDate">
+                        <a class="articleLink" href="#">Rutrum</a>
+                        <p class="articleDate">Hier</p>
+                    </div>
+                </div>
+                <img src="https://place-hold.it/104x104" alt="Image de l'article">
+            </div>
+            <div class="articleItem">
+                <div class="text">
+                    <p class="articleText">Donec id elit non mi porta gravida at eget metus</p>
+                    <div class="articleLinkAndDate">
+                        <a class="articleLink" href="#">Rutrum</a>
+                        <p class="articleDate">Hier</p>
+                    </div>
+                </div>
+                <img src="https://place-hold.it/104x104" alt="Image de l'article">
+            </div>
+            <div id="loader">H<img src="./sources/icons/loader.png" alt="">y</div>
+        </section>
+    </main>
+    <footer>
+        <p>Merci :)</p>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
